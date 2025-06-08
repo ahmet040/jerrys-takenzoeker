@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Link naar je Google Sheet als CSV
-SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRj6zv1P__4vqaRkbLQAzGhT_eXGmWVRV54DAgwllvTg-4ZDCrs3MRwnE93MImTeMsfRzG7R1Nbh2Hl/pub?output=csv"
+SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1nCLIs4_CVXYWNBUUPC52jeDugyYUWThh_Pmuo-Yly9U/export?format=csv"
 
 @st.cache_data
 def load_data():
